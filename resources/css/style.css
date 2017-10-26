@@ -120,3 +120,33 @@ nav li {
 .benefits-item span {
   padding-top: 0.5rem;
 }
+
+.info {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.info .info-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 10rem;
+  width: 35%;
+  margin: 0 2.5%;
+}
+
+.info-item h4 {
+  background-color: cadetblue;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  width: 10rem;
+  padding: 0.5rem;
+  padding-left: 1.25rem;
+}
+
+.info-item span {
+  margin-top: 1rem;
+}
