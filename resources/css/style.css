@@ -65,6 +65,10 @@ nav li {
   padding: 1rem;
 }
 
+header .small-nav {
+  display: none;
+}
+
 .banner {
   display: flex;
   align-items: center;
@@ -194,5 +198,74 @@ footer img {
 
 /* mobile size */
 @media only screen and (max-width: 470px) {
+  .main {
+    width: 100%;
+  }
+
+  .background {
+    height: 17rem;
+  }
+
+  header {
+    top: 0;
+    position: absolute;
+    width: 100%;
+    margin: 0;
+  }
+
+  header span {
+    display: none;
+  }
+
+  header .full-nav {
+    display: none;
+  }
+
+  header .small-nav {
+    display: flex;
+  }
+
+  .banner {
+    justify-content: center;
+    padding: 12rem 0 2rem 0;
+  }
+
+  .banner h1 {
+    font-size: 1rem;
+    padding: 1rem 4rem;
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .benefits {
+    flex-direction: column;
+    margin: 3.77rem;
+  }
+
+  .info {
+    flex-direction: column;
+  }
+
+  .info .info-item {
+    height: auto;
+    width: 100%;
+    margin: 0 0 4rem 0;
+  }
+
+  .info-item h4 {
+    width: 100%;
+  }
+
+  .info-item span {
+    font-size: 0.77rem;
+  }
+
+  footer {
+    justify-content: center;
+  }
+
+  footer span {
+    display: none;
+  }
 
 }
