@@ -150,3 +150,16 @@ nav li {
 .info-item span {
   margin-top: 1rem;
 }
+
+footer {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  height: 9.5rem;
+  width: 100%;
+}
+
+footer img {
+  margin-left: 4rem;
+  margin-right: 1rem;
+}
